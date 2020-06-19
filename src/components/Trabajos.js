@@ -6,9 +6,12 @@ import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import gif1 from '../img/gif1.gif';
+
 import img1 from '../img/img1.jpg';
 import img2 from '../img/img2.png';
 import img3 from '../img/img3.png';
+import img4 from '../img/img4.png';
 
 const Trabajos = (props) => {
     const responsive = props.props.responsive[0];
@@ -57,6 +60,24 @@ const Trabajos = (props) => {
                         <div className="card-body">
                             <h5 className="card-title">Ilustración Vectorial</h5>
                             <p className="card-text f-light text">Ilustracion ligera del faro de Puntarenas.</p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="embed-responsive embed-responsive-16by9">
+                            <img src={img4} className="card-img-top embed-responsive-item" alt="TUP Banner"/>
+                        </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Libro de Marca TUP</h5>
+                            <p className="card-text f-light text">Creación de identidad visual y libro de marca para el TUP.</p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="embed-responsive embed-responsive-16by9">
+                            <img src={gif1} className="card-img-top embed-responsive-item" alt="Animacion"/>
+                        </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Animación</h5>
+                            <p className="card-text f-light text">Pequeño proyecto de animación con efecto parallax.</p>
                         </div>
                     </div>
                     </Carousel>
