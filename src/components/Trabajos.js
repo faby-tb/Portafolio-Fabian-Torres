@@ -8,6 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import img1 from '../img/img1.jpg';
 import img2 from '../img/img2.png';
+import img3 from '../img/img3.png';
 
 const Trabajos = (props) => {
     const responsive = props.props.responsive[0];
@@ -32,7 +33,7 @@ const Trabajos = (props) => {
                     <Carousel className="carousel" infinite autoPlay autoPlaySpeed={4500} draggable={false} keyBoardControl={true} removeArrowOnDeviceType={["tablet", "mobile"]} responsive={responsive}>
                     <div className="card">
                         <div className="embed-responsive embed-responsive-16by9">
-                            <img src={img1} className="card-img-top embed-responsive-item" alt="..."/>
+                            <img src={img1} className="card-img-top embed-responsive-item" alt="Puntarenas"/>
                         </div>
                         <div className="card-body">
                             <h5 className="card-title">Atardecer Puntarenense</h5>
@@ -47,6 +48,15 @@ const Trabajos = (props) => {
                             <h5 className="card-title">Vostok6</h5>
                             <p className="card-text f-light text">Juego / Proyecto ExpoMedia 2019.</p>
                             <a href="https://github.com/faby-tb/Vostok6" className="btn btn-primary">Ir al proyecto</a>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="embed-responsive embed-responsive-16by9">
+                            <img src={img3} className="card-img-top embed-responsive-item" alt="Faro"/>
+                        </div>
+                        <div className="card-body">
+                            <h5 className="card-title">Ilustración Vectorial</h5>
+                            <p className="card-text f-light text">Ilustracion ligera del faro de Puntarenas.</p>
                         </div>
                     </div>
                     </Carousel>
