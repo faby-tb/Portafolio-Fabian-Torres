@@ -3,7 +3,7 @@
 ## Fabián Torres Benavides
 ### B87869
 
-### [Ir a la página](https://toresu.tech)
+### [Ir a la página](https://fabiantorres.dev)
 ![web](https://user-images.githubusercontent.com/54631281/85170981-6bca9d80-b22b-11ea-9f72-09af8c447623.png)
 
 ##### Proyecto creado en React
